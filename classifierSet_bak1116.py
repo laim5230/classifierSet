@@ -40,7 +40,7 @@ def logistic_regression_classifier(train_x, train_y):
 # Random Forest Classifier
 def random_forest_classifier(train_x, train_y):
     from sklearn.ensemble import RandomForestClassifier
-    model = random_forest_classifier()
+    model = RandomForestClassifier()
     model.fit(train_x, train_y)
     return model
 
